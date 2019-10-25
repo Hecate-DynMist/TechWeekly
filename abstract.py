@@ -3,16 +3,16 @@ from bs4 import BeautifulSoup
 from pandas import DataFrame
 
 
-URL=['https://arxiv.org/list/cs.AI/pastweek?show=64','https://arxiv.org/list/cs.LG/pastweek?show=279']#url集合
+URL=['https://arxiv.org/list/cs.LG/pastweek?show=357']#url集合
 
 for i in range(len(URL)):#遍历循环
     RESPONSE=requests.get(URL[i])
     SOUP=BeautifulSoup(RESPONSE.text, 'html.parser')
 #解析网页成bs4.BeautifulSoup类型,将html代码全部读取出来
 
-    field=SOUP.select('h1')#选择包含‘h1'的所有，返回一个list，里面每一个元素是bs4.element.Tag
-    FIELD=[]
-    FIELD.append(field[1].get_text())#bs4.element.Tag的功能：get_text()获取文字内容，不要标签
+    # field=SOUP.select('h1')#选择包含‘h1'的所有，返回一个list，里面每一个元素是bs4.element.Tag
+    # FIELD=[]
+    # FIELD.append(field[1].get_text())#bs4.element.Tag的功能：get_text()获取文字内容，不要标签
     
     LINKS= SOUP.select('span[class="list-identifier"]')
     len(LINKS)
@@ -52,13 +52,13 @@ for i in range(len(URL)):#遍历循环
         element=abstract[0].get_text().split('\n')#分割
         abstract_.append("".join(element))#重组
         #二级领域
-        FIELD.append(FIELD[0])
-    del FIELD[-1]#由于开始初始化有一个值，为保障长度相等，所以要去掉一个
+        # FIELD.append(FIELD[0])
+    # del FIELD[-1]#由于开始初始化有一个值，为保障长度相等，所以要去掉一个
     #print(title_)
     #print(receive_date_)
     #print(abstract_)
     
     #通过dataframe转成文件
-    data={'Title':title_,'Field':FIELD,'Receive_date':receive_date_,'Abstract':abstract_,'Link':links}
+    data={'Title':title_,'Receive_date':receive_date_,'Abstract':abstract_,'Link':links}
     df=DataFrame(data,columns=['Title','Field','Receive_date','Abstract','Link'])
     df.to_csv('./Outputs/%d.csv'%i,index=False)

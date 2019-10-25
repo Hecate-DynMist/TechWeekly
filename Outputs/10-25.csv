@@ -1,20 +1,6 @@
-国际顶级学术会议CIKM2019北京开幕在即，重量级嘉宾带你窥探人工智能前沿 
-
-第28届国际顶级“信息提取，知识管理和数据库” 年会（CIKM - The ACM International Conference on Information and Knowledge Management）将于今年11月3日-7日在中国北京召开。自1992年成立以来，CIKM致力于将这三个相关领域的研究员和开发者聚集在一起，实现跨领域的深入合作与交流。CIKM今年以“未来生活的人工智能”为主题，聚焦大数据和人工智能未来愿景的技术和见解。此次落户北京，CIKM为国内研究和工程人员提供了一个绝佳的机会和平台去参与发表、介绍和讨论高质量的理论和应用研究成果，发现行业所面临的重要挑战，提出高效的解决方案，并共塑未来。 
-
-# 24
-
-腾信技术：知识图谱应用 
-
-腾信自主研发的智能招采平台主要根据全国政府机关及事业单位门户网站、政府集采网站、行业招投标平台及其他媒体发布的招标中标相关信息，生成知识图谱。用户在使用平台时可根据地域、应用场景、行为习惯等自定义个人工作面板，预置的机器学习模型演练并迭代招采模型。因而用户通过智能推送此类信息的方式，能大大减少检索、分析的人工成本，提高了工作的效率及精准度。同时，智能招采平台还能通过关系提取，NLP自然语言解析处理招标、中标信息内容，以制作关系图谱，为市场行为提供知识连接新渠道与方向。 
-
-招采知识图谱，关系图谱
+ THUEE-CMCC Dialog System V1.0
 
 
-
-THUEE-CMCC Dialog System V1.0
-
-基于知识图谱进行套餐推荐、套餐信息查询、个人信息查询等任务的中移动智能对话系统。系统使用了三个识别器：用户动作识别器、属性识别器和值识别器，模型主要使用了 词袋模型(BOW)和富对话状态跟踪模型 (EDST)。
 
 
 
@@ -22,15 +8,13 @@ KMS Lighthouse Extends Its Knowledge Base Integration to Freshworks Marketplace
 
 Freshworks Inc., the customer engagement software company, and KMS Lighthouse, a cutting-edge knowledge management solutions provider announced an offering to integrate expanded support for existing Freshworks customers. Together, these integrated solutions boost agent response efficiency by providing them access to a powerful, centralized knowledge base that in turn enhances customer satisfaction. 
 
-软件公司Freshworks Inc.和领先的知识管理解决方案提供商KMS Lighthouse宣布了一项为现有的Freshworks客户提供具有集成扩展支持的产品。这些集成的解决方案使用户能够访问强大的且集中的知识库，从而在提高了系统响应效率的同时，大大提高了客户满意度。
 
-# 23
 
-['Title: Knowledge Map: Toward a New Approach Supporting the Knowledge Management in Distributed Data Mining'],KG ,(Submitted on 23 Oct 2019),"Abstract:  Distributed data mining (DDM) deals with the problem of finding patterns or models, called knowledge, in an environment with distributed data and computations. Today, a massive amounts of data which are often geographically distributed and owned by different organisation are being mined. As consequence, a large mount of knowledge are being produced. This causes analysis while minimising the communication. Existing DDM techniques perform partial analysis of local data at individual sites and then generate a global model by aggregating these local results. These two steps are not independent since naive approaches to local analysis may produce an incorrect and ambiguous global data model. The integrating and cooperating of these two steps need an effective knowledge management, concretely an efficient map of knowledge in order to take the advantage of mined knowledge to guide mining the data. In this paper, we present ""knowledge map"", a representation of knowledge about mined knowledge. This new approach aims to manage efficiently mined knowledge in large scale distributed platform such as Grid. This knowledge map is used to facilitate not only the visualization, evaluation of mining results but also the coordinating of local mining process and existing knowledge to increase the accuracy of final model.",https://arxiv.org/abs/1910.10547
 
-分布式数据挖掘(DDM)指在具有分布式数据和计算的环境中寻找知识模式或模型。如今，不同地理分布和组织拥有的大量文本数据被充分挖掘，因此，产生了大量的知识。而地域的限制会导致在分析数据时，需要最小化通信。对于这个问题，现有的DDM技术分别对个别站点的本地数据进行分析，然后通过聚合这些本地结果生成一个全局模型。这两个步骤并不是相互独立的，因为原生的局部分析方法可能会产生不正确和模糊的全局数据模型。因而，这两个步骤的集成与协作需要一个有效的知识管理，也即是有效的知识图谱，以便利用挖掘出的知识对数据建模进行指导。论文由此提出了“知识地图”，一个关于挖掘知识的知识表示。该方法旨在对网格等大规模分布式平台上的知识进行有效管理。该知识图不仅方便了挖掘结果的可视化、评价，而且可以对局部挖掘过程和已有知识进行协调，提高最终模型的准确性。 
 
-分布式数据挖掘，知识地图
+
+
+
 
 
 
@@ -38,39 +22,17 @@ Freshworks Inc., the customer engagement software company, and KMS Lighthouse, a
 
 
 
-# 22
 
-Building Dynamic Knowledge Graphs from Text-based Games
-
-We are interested in learning how to update Knowledge Graphs (KG) from text. In this preliminary work, we propose a novel Sequence-to-Sequence (Seq2Seq) architecture to generate elementary KG operations. Furthermore, we introduce a new dataset for KG extraction built upon text-based game transitions (over 300k data points). We conduct experiments and discuss the results. 
-
-论文的关注点是如何用文本更新知识图谱（KG）。在初步工作中，论文提出了一种新颖的序列到序列（Seq2Seq）架构来生成基本的KG操作。同时，论文还引入了一个新的基于文本的游戏状态转移（超过30万个数据点）数据集，以此来提取KG。 在完成KG提取后，该项目的下一步会尝试实现在玩基于文本的游戏时利用KG对模块进行更新。 
-
-
-
-知识图谱的关键技术及其智能应用
-
-这份PPT资料来自北京大学的赵东岩老师在计算所做的《知识图谱的关键技术及其智能应用》的讲座。内容主要包括：1.从知识图谱构建、补全及其人机交互问答等方面系统阐述知识图谱的关键技术方案；2.结合北大计算机研究所在这个研究方向上的具体进展；3.以实际应用为背景、探讨如何基于知识图谱实现智能问答等智能应用的技术路线。
-
-人机交互问答，知识图谱构建和补全
 
 ['Title: Faster and Safer Training by Embedding High-Level Knowledge into Deep Reinforcement Learning'],Artificial Intelligence ,(Submitted on 22 Oct 2019),"Abstract:  Deep reinforcement learning has been successfully used in many dynamic decision making domains, especially those with very large state spaces. However, it is also well-known that deep reinforcement learning can be very slow and resource intensive. The resulting system is often brittle and difficult to explain. In this paper, we attempt to address some of these problems by proposing a framework of Rule-interposing Learning (RIL) that embeds high level rules into the deep reinforcement learning. With some good rules, this framework not only can accelerate the learning process, but also keep it away from catastrophic explorations, thus making the system relatively stable even during the very early stage of training. Moreover, given the rules are high level and easy to interpret, they can be easily maintained, updated and shared with other similar tasks.",https://arxiv.org/abs/1910.09986
 
 ['Title:Towards More Sample Efficiency in Reinforcement Learning with Data Augmentation'],Artificial Intelligence ,"(Submitted on 19 Oct 2019 (v1), last revised 23 Oct 2019 (this version, v2))","Abstract:  Deep reinforcement learning (DRL) is a promising approach for adaptive robotcontrol, but its current application to robotics is currently hindered by high sample requirements. We propose two novel data augmentation techniques for DRL in order to reuse more efficiently observed data. The first one called Kaleidoscope Experience Replay exploits reflectional symmetries, while the second called Goal-augmented Experience Replay takes advantage of lax goal definitions. Our preliminary experimental results show a large increase in learning speed.",https://arxiv.org/abs/1910.09959
 
-['Title: Towards Combinational Relation Linking over Knowledge Graphs'],KG,(Submitted on 22 Oct 2019),"Abstract:  Given a natural language phrase, relation linking aims to find a relation(predicate or property) from the underlying knowledge graph to match the phrase. It is very useful in many applications, such as natural language question answering, personalized recommendation and text summarization. However, the previous relation linking algorithms usually produce a single relation for the input phrase and pay little attention to a more general and challenging problem, i.e., combinational relation linking that extracts a subgraph pattern to match the compound phrase (e.g. mother-in-law). In this paper, we focus on the task of combinational relation linking over knowledge graphs. To resolve the problem, we design a systematic method based on the data-driven relation assembly technique, which is performed under the guidance of meta patterns. We also introduce external knowledge to enhance the system understanding ability. Finally, we conduct extensive experiments over the real knowledge graph to study the performance of the proposed method.",https://arxiv.org/abs/1910.09879
-
-给定一个自然语言短语，关系链接旨在从基础知识图谱中找到一个关系（谓词或属性）以匹配该短语。它在许多应用程序中非常有用，例如自然语言问答，个性化推荐和文本摘要。可是，传统的关系链接算法通常只为输入短语生成单个关系，而很少关注更一般和更具挑战性的问题，如组合关系链接提取了子图模式以匹配复合短语（例如岳母）。为解决这个问题，论文更专注于知识图谱上的组合关系链接的任务，由此设计了一种基于数据驱动关系组装技术的系统方法，并使该方法在元模式的指导下进行。此外，还将引入外部知识以增强系统的理解能力。最后，大量实验结果也证实了这个方法的有效性。
-
-关系链接，组合关系链接
 
 
 
-['Title: Question Answering over Knowledge Graphs via Structural Query Patterns'],KG,(Submitted on 22 Oct 2019),"Abstract:  Natural language question answering over knowledge graphs is an important and interesting task as it enables common users to gain accurate answers in an easy and intuitive manner. However, it remains a challenge to bridge the gap between unstructured questions and structured knowledge graphs. To address the problem,a natural discipline is building a structured query to represent the input question. Searching the structured query over the knowledge graph can produce answers to the question. Distinct from the existing methods that are based on semantic parsing or templates, we propose an effective approach powered by a novel notion, structural query pattern, in this paper. Given an input question,we first generate its query sketch that is compatible with the underlying structure of the knowledge graph. Then, we complete the query graph by labelling the nodes and edges under the guidance of the structural query pattern. Finally, answers can be retrieved by executing the constructed query graph over the knowledge graph. Evaluations on three question answering benchmarks show that our proposed approach outperforms state-of-the-art methods significantly.",https://arxiv.org/abs/1910.09760
 
-知识图谱上的自然语言问答是一项重要而有趣的任务，它能使普通用户可以轻松，直观地获得准确的答案。然而，非结构化问题和结构化知识图之间的差距仍然是问答任务的一大挑战。为了解决该问题，一个很直白的解决思路就是构建结构化查询来表示输入问题，从而在知识图谱上可以进行结构化查询以生成问题的答案。与基于语义解析或模板的现有方法不同，论文提出了一种以结构查询模式提供支持的方法。首先，给定输入问题，该方法生成与知识图谱的基础结构兼容的查询草图。接着，在结构化查询模式的指导下标记节点和边来完成查询图。最后，通过在知识图谱上执行构造的查询图来检索答案。对三个回答问题基准的评估结果表明，论文提出的方法是明显优于榜单最优方法的。
 
-知识问答，结构化查询
 
 
 
@@ -92,11 +54,7 @@ We are interested in learning how to update Knowledge Graphs (KG) from text. In 
 
 # 21
 
-1st Knowledge Graph Forum 2019
 
-It is all about practical applications of knowledge graphs. You might ask now: Why? The simple answer is: most of the data driven enterprise stories start with the bulk of data rather with the condensed matter i.e. the knowledge. My simple observation is: we tend to explain, how solutions are created from first principles but it might be far more clever starting with the solution. Explaining how the solution works is in my view very powerful because you know the benefits already. This article is my personal wrap-up - in machine learning language: it is a bit biased. 
-
-2019知识图谱论坛已经圆满结束，此次论坛主题主要是关于知识图谱的实际应用。这份活动内容提炼主要表达了一个观点，大多数由数据驱动的企业都是研究如何从大量数据提取有效信息而不是从浓缩的知识开始的，简单观察是：我们倾向于解释，解决方案是如何根据第一原理创建的，但是从解决方案开始可能会更聪明。从而，解释解决方案的工作原理非常有力且有趣的，这也是能从此次活动得到的最大收益。
 
 ['Title:Learning to Map Natural Language Instructions to Physical Quadcopter Control using Simulated Flight'],Artificial Intelligence ,(Submitted on 21 Oct 2019),"Abstract:  We propose a joint simulation and real-world learning framework for mappingnavigation instructions and raw first-person observations to continuouscontrol. Our model estimates the need for environment exploration, predicts thelikelihood of visiting environment positions during execution, and controls theagent to both explore and visit high-likelihood positions. We introduceSupervised Reinforcement Asynchronous Learning (SuReAL). Learning uses bothsimulation and real environments without requiring autonomous flight in thephysical environment during training, and combines supervised learning forpredicting positions to visit and reinforcement learning for continuouscontrol. We evaluate our approach on a natural language instruction-followingtask with a physical quadcopter, and demonstrate effective execution andexploration behavior.",https://arxiv.org/abs/1910.09664
 ['Title:Relative Net Utility and the Saint Petersburg Paradox'],Artificial Intelligence ,(Submitted on 21 Oct 2019),"Abstract:  The famous St Petersburg Paradox shows that the theory of expected value doesnot capture the real-world economics of decision-making problem. Over theyears, many economic theories were developed to resolve the paradox and explainthe subjective utility of the expected outcomes and risk aversion. In thispaper, we use the concept of the net utility to resolve the St Petersburgparadox. The reason why the principle of absolute instead of net utility doesnot work is because it is a first order approximation of some unknown utilityfunction. Because the net utility concept is able to explain both behavioraleconomics and the St Petersburg paradox it is deemed a universal approach tohandling utility. Finally, this paper explored how artificial intelligent (AI)agent will make choices and observed that if AI agent uses the nominal utilityapproach it will see infinite reward while if it uses the net utility approachit will see the limited reward that human beings see.",https://arxiv.org/abs/1910.09544
@@ -135,25 +93,13 @@ It is all about practical applications of knowledge graphs. You might ask now: W
 ['Title:Boosting Mapping Functionality of Neural Networks via Latent Feature Generation based on Reversible Learning'],Artificial Intelligence ,(Submitted on 21 Oct 2019),"Abstract:  This paper addresses a boosting method for mapping functionality of neuralnetworks in visual recognition such as image classification and facerecognition. We present reversible learning for generating and learning latentfeatures using the network itself. By generating latent features correspondingto hard samples and applying the generated features in a training stage,reversible learning can improve a mapping functionality without additional dataaugmentation or handling the bias of dataset. We demonstrate an efficiency ofthe proposed method on the MNIST,Cifar-10/100, and Extremely Biased and poorlycategorized dataset (EBPC dataset). The experimental results show that theproposed method can outperform existing state-of-the-art methods in visualrecognition. Extensive analysis shows that our method can efficiently improvethe mapping capability of a network.",https://arxiv.org/abs/1910.09108
 ['Title:From Importance Sampling to Doubly Robust Policy Gradient'],Artificial Intelligence ,(Submitted on 20 Oct 2019),"Abstract:  We show that policy gradient (PG) and its variance reduction variants can bederived by taking finite difference of function evaluations supplied byestimators from the importance sampling (IS) family for off-policy evaluation(OPE). Starting from the doubly robust (DR) estimator [Jiang and Li, 2016], weprovide a simple derivation of a very general and flexible form of PG, whichsubsumes the state-of-the-art variance reduction technique [Cheng et al., 2019]as its special case and immediately hints at further variance reductionopportunities overlooked by existing literature.",https://arxiv.org/abs/1910.09066
 
-# 20
 
-Pykg2vec: Python Library for KG Embedding Methods` 
-
-Pykg2vec is a library, currently in active development, for learning the representation of entities and relations in Knowledge Graphs. We have attempted to bring all the state-of-the-art knowledge graph embedding algorithms and the necessary building blocks in knowledge graph embedding task pipeline into a single library. We hope Pykg2vec is both practical and educational for users who want to explore the related fields. 
-
-Pykg2vec是一个正在持续开发中，用于学习知识图谱中实体和关系的表示的库。这个库最大的亮点是整合了几乎将所有最新的知识图嵌入算法和知识图嵌入任务流水线中的必要构造块，使得这个库除了实用价值外，还有很高的学习价值。
-
-
-
-长文综述：中文知识图谱构建技术及其应用` 
-
-随着智能技术的不断发展，作为人工智能支柱的知识图谱以其强大的知识表示和推理能力受到了学术界和产业界的广泛关注。近年来，知识图谱在语义搜索、问答、知识管理等领域得到了广泛的应用。构建中文知识图谱的技术也在迅速发展，不同的中文知识图谱以支持不同的应用。同时，我国在知识图谱开发方面积累的经验对非英语知识图谱的开发也有很好的借鉴意义。论文以典型的中文知识图谱为例，介绍了中文知识图谱的构建技术及其应用，此外，还对构建中文知识图谱的技术细节进行了研究。
 
 
 
 使用预训练深度模型和迁移学习方法的端到端模糊实体匹配
 
-目前实体匹配过程中实体之间的差异比较微妙，不同的情况下可能会有不同的决策结果，导致难以做出精确的匹配决策。另外现存的实体匹配方法在做出决策之前，往往需要大量的训练数据，而这在许多的应用场景中是难以做到的。而论文设计了一种层次化的深度模型，利用了字符级别和单词级别的信息，来预训练常见属性类型的相关模型。此外，还使用了迁移学习的方法，能够利用预训练模型并进行微调，使其能够处理新的属性类型的实体匹配任务。
+
 
 ['Title:Amortized Rejection Sampling in Universal Probabilistic Programming'],Artificial Intelligence ,(Submitted on 20 Oct 2019),Abstract:  Existing approaches to amortized inference in probabilistic programs withunbounded loops can produce estimators with infinite variance. An instance ofthis is importance sampling inference in programs that explicitly includerejection sampling as part of the user-programmed generative procedure. In thispaper we develop a new and efficient amortized importance sampling estimator.We prove finite variance of our estimator and empirically demonstrate ourmethod's correctness and efficiency compared to existing alternatives ongenerative programs containing rejection sampling loops and discuss how toimplement our method in a generic probabilistic programming framework.,https://arxiv.org/abs/1910.09056
 ['Title:CAI4CAI: The Rise of Contextual Artificial Intelligence in Computer Assisted Interventions'],Artificial Intelligence ,(Submitted on 20 Oct 2019),"Abstract:  Data-driven computational approaches have evolved to enable extraction ofinformation from medical images with a reliability, accuracy and speed which isalready transforming their interpretation and exploitation in clinicalpractice. While similar benefits are longed for in the field of interventionalimaging, this ambition is challenged by a much higher heterogeneity. Clinicalworkflows within interventional suites and operating theatres are extremelycomplex and typically rely on poorly integrated intra-operative devices,sensors, and support infrastructures. Taking stock of some of the most excitingdevelopments in machine learning and artificial intelligence for computerassisted interventions, we highlight the crucial need to take context and humanfactors into account in order to address these challenges. Contextualartificial intelligence for computer assisted intervention, or CAI4CAI, arisesas an emerging opportunity feeding into the broader field of surgical datascience. Central challenges being addressed in CAI4CAI include how to integratethe ensemble of prior knowledge and instantaneous sensory information fromexperts, sensors and actuators; how to create and communicate a faithful andactionable shared representation of the surgery among a mixed human-AI actorteam; how to design interventional systems and associated cognitive sharedcontrol schemes for online uncertainty-aware collaborative decision makingultimately producing more precise and reliable interventions.",https://arxiv.org/abs/1910.09031
@@ -171,21 +117,11 @@ Pykg2vec是一个正在持续开发中，用于学习知识图谱中实体和关
 
 # 18
 
-跨句多元关系抽取 
-
-
-
 Using Local Knowledge Graph Construction to Scale Seq2Seq Models to Multi-Document Inputs
 
 Query-based open-domain NLP tasks require information synthesis from long and diverse web results. Current approaches extractively select portions of web text as input to Sequence-to-Sequence models using methods such as TF-IDF ranking. We propose constructing a local graph structured knowledge base for each query, which compresses the web search information and reduces redundancy. We show that by linearizing the graph into a structured input sequence, models can encode the graph representations within a standard Sequence-to-Sequence setting. For two generative tasks with very long text input, long-form question answering and multi-document summarization, feeding graph representations as input can achieve better performance than using retrieved text portions.
 
-基于查询的开放域NLP任务需要从大量并且多样的Web结果中进行信息合成。为应对这类数据，当前的方法选择使用诸如TF-IDF先对数据进行排序，从中提取Web文本的一部分作为序列到序列模型的输入。区别于此，这篇论文提出为每个查询构建一个本地图结构的知识库，用以压缩Web搜索信息并减少冗余。论文表明，通过将图线性化为结构化输入序列，模型可以在标准的“序列到序列”设置内对图形表示进行编码。而实验结果表明，对于需要长文本输入，长格式问题解答和多文档摘要的生成任务，图形表示作为输入要比使用检索到的部分文本作为输入更有效。
 
-Attentive Knowledge Graph Embedding for Personalized Recommendation
-
-Knowledge graphs (KGs) have proven to be effective for high quality recommendation. However, existing methods mainly investigate separate paths connecting user-item pairs from KGs, thus failing to fully capture the rich semantics and underlying topology of KGs. We, therefore, propose a novel attentive knowledge graph embedding (AKGE) framwork to exploit the complex subgraphs of KGs linking user-item pairs to help better infer user preference. Specifically, AKGE first employs a distance-aware sampling strategy to automatically extract high-order subgraphs, which represent user-item relations with rich semantics. The subgraphs are then encoded by the proposed attentive graph neural network to help learn accurate user preference over items. Extensive validation shows that AKGE consistently outperforms state-of-the-arts. It additionally provides potential explanations for recommendation results. 
-
-知识图（KG）被证实是高质量推荐的有效工具。然而，现有方法对知识图谱中用户-项目匹配的多条路径研究是独立进行的，因此无法完全捕获KG的丰富语义和底层拓扑结构。因此，论文提出了一种新颖的注意力知识图谱嵌入（AKGE）框架，以利用KG的复杂子图来链接用户-项目对，以帮助更好地推断用户的偏好。具体来说，AKGE首先采用距离感知采样策略来自动提取高阶子图，这些子图包含了具有丰富语义的用户-项目对。接着，由所提出的关注图神经网络对子图进行编码，以帮助学习准确的用户偏好项。广泛的验证表明，AKGE始终优于榜单最先进技术，另外，它还为推荐结果提供了可能的解释。
 
 
 
@@ -193,7 +129,7 @@ Knowledge graphs (KGs) have proven to be effective for high quality recommendati
 
 ['Title:Towards Learning Cross-Modal Perception-Trace Models'],KG,(Submitted on 18 Oct 2019),"Abstract:  Representation learning is a key element of state-of-the-art deep learning approaches. It enables to transform raw data into structured vector space embeddings. Such embeddings are able to capture the distributional semantics of their context, e.g. by word windows on natural language sentences, graph walks on knowledge graphs or convolutions on images. So far, this context is manually defined, resulting in heuristics which are solely optimized for computational performance on certain tasks like link-prediction. However, such heuristic models of context are fundamentally different to how humans capture information. For instance, when reading a multi-modal webpage (i) humans do not perceive all parts of a document equally: Some words and parts of images are skipped, others are revisited several times which makes the perception trace highly non-sequential; (ii) humans construct meaning from a document's content by shifting their attention between text and image, among other things, guided by layout and design elements. In this paper we empirically investigate the difference between human perception and context heuristics of basic embedding models. We conduct eye tracking experiments to capture the underlying characteristics of human perception of media documents containing a mixture of text and images. Based on that, we devise a prototypical computational perception-trace model, called CMPM. We evaluate empirically how CMPM can improve a basic skip-gram embedding approach. Our results suggest, that even with a basic human-inspired computational perception model, there is a huge potential for improving embeddings since such a model does inherently capture multiple modalities, as well as layout and design elements.",https://arxiv.org/abs/1910.08549
 
-表征学习是最前沿深度学习方法的关键要素。它可以将原始数据转换为结构化向量空间嵌入，此类嵌入能够捕获其上下文的分布语义，例如通过自然语言句子上的单词窗口，知识图谱上的图或图像上的卷积进行嵌入。目前，此类上下文是通过人工定义的，从而产生了针对特定任务（如链接预测）的计算性能而专门优化的启发式方法。但是，这种上下文启发式模型与人类捕获信息的方式从根本上是不同的。例如，当阅读多模态网页时，1.人们不能同时感知文档的所有部分：某些单词和图像的某些部分被跳过，而另一些单词被重新访问了几次，从而感知是不连续的。2.人会在布局和设计元素的引导下在文本和图像之间转移注意力，在这些因素的影响下理解文档意思。论文实证研究了人类感知与基本嵌入模型的上下文启发式方法之间的差异。通过眼动追踪实验，捕获人类感知包含文本和图像的媒体文档的基本特征。在此基础上，论文设计了一个原型计算感知跟踪模型，称为CMPM，并评估了CMPM是如何改进基本图跳转嵌入的方法。结果表明，人类启发式计算感知模型有很大的潜力可以改进嵌入效果，这得益于模型能捕获多种形式以及布局和设计元素的特性。
+
 
 
 
@@ -212,9 +148,9 @@ Knowledge graphs (KGs) have proven to be effective for high quality recommendati
 
 超全整理知识图谱相关学习资料，提供系统化的知识图谱学习路径 KG
 
-这是一份系统化整理知识图谱相关资料的文档，为学者提供了一条学习知识图谱的路径。内容包括理论及论文，图谱及数据集，工具及服务，白皮书及报告，机构及人物，视频课程，专栏合集，评测竞赛，项目案例和相关的推广技术文章。
 
-开放知识图谱，领域知识图谱
+
+
 
 
 
