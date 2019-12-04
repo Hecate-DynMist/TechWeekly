@@ -25,7 +25,6 @@ def get_one_page(url):
 
 
 def main():
-
     url = 'https://arxiv.org/list/cs.AI/pastweek?skip=0&show=49'
     html = get_one_page(url)
     soup = BeautifulSoup(html, features='html.parser')
